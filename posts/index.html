@@ -112,6 +112,25 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">aaaa
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>当然可以！以下是一个完整的 使用 Hugo &#43; PaperMod 创建博客并部署到 GitHub Pages 的 Markdown 教程，从零开始详细整理了每一步流程，适合初学者复制粘贴操作：
+🚀 使用 Hugo &#43; PaperMod 创建并部署博客到 GitHub Pages 本教程包含三个主要步骤：
+创建博客并写入内容 编译为 HTML 静态页面 发布到 GitHub Pages 🛠️ 前置准备 安装 Hugo： 下载并安装 Hugo 官网地址
+安装 Git Git 下载地址
+注册并登录 GitHub，创建一个名为：
+` 用户名.github.io
+的仓库（例如：`silentorchid6.github.io`） --- ## 1️⃣ 创建 Hugo 博客并安装主题 ```bash # 创建一个博客项目 hugo new site myblog cd myblog # 初始化 git 仓库（可选） git init # 安装 PaperMod 主题 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod # 设置主题名 echo &#39;theme = &#34;PaperMod&#34;&#39; &gt;&gt; hugo.toml 2️⃣ 编辑配置文件 hugo.toml baseURL = &#34;https://你的用户名.github.io/&#34; languageCode = &#34;zh-cn&#34; title = &#34;我的 Hugo 博客&#34; theme = &#34;PaperMod&#34; pagination.pagerSize = 10 [params] author = &#34;你的名字&#34; ShowReadingTime = true ShowShareButtons = true ShowPostNavLinks = true ShowCodeCopyButtons = true ShowWordCount = true ShowToc = true defaultTheme = &#34;auto&#34; [[params.socialIcons]] name = &#34;email&#34; url = &#34;mailto:you@example.com&#34; [[params.socialIcons]] name = &#34;github&#34; url = &#34;https://github.com/你的用户名&#34; [menu] [[menu.main]] name = &#34;首页&#34; url = &#34;/&#34; weight = 1 [[menu.main]] name = &#34;归档&#34; url = &#34;/archives/&#34; weight = 2 3️⃣ 创建博客文章 # 创建一篇新文章 hugo new posts/hello-world.md 打开 content/posts/hello-world.md，编辑内容如下：
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 12:00:00 +0800 CST'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;370 words&nbsp;·&nbsp;你的名字</footer>
+  <a class="entry-link" aria-label="post link to aaaa" href="https://silentorchid6.github.io/posts/usageblog/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Hello World
     </h2>
   </header>
